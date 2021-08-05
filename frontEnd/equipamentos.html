@@ -8,108 +8,106 @@
     <title>Cadastrar Equipamento</title>
 
     <!-- Estilos -->
-    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="/assets/equipamentos.css" />
 
     <!-- Fontes -->
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet"> 
   
 </head>
 <body>
-    <header class="cabecalho-principal">
-        <div class="container">
-            <nav class="cabecalhoPrincipal-nav">
-                <img src="/assets/img/senai-logo.png" alt="Image" height="50" width="220"> 
-              <a>Cadastrar Sala</a>
-              <a class="cabecalhoPrincipal-nav-login" href="cadastrarEquipamentos.html">Cadastrar Equipamentos</a>
-              <a>Sair</a>
-            </nav>
-          </div>
-    </header>
-
     <main>
-        <section>
+        <section class="sec_1">
             <div class="content">
                 <div class="titulo-cadastrarEquipamento">
-                  <h1>Cadastrar Equipamentos</h1>
+                  <h1>Cadastrar Equipamento</h1>
                   <hr>
                 </div>
     
             </div>
 
-            <form>
-                <input type="hidden" name="form_input" value="FORM_COTACAO" />
-                <div class="grid_1 " >
-                    <div class="grid_1_1">
-                        <p>Tipo De Equipamento</p>
-                        <select name="state" class="custom" data-width="10" data-value="Tipo de Equipamento">
-                            <option value="">Equipamentos</option>
-                            <option value="">------</option>
-                        </select>
-                    </div>
-                </div>
-                <div class="grid_1" >
-                    <input type="text" name="name" placeholder="N° De Serie" class="input watermark" />
-                </div>
+            <form class="form content">
                 <div class="grid_1">
+                    <input type="text" placeholder="Tipo de Equipamento"/>
+                
                     <input type="text" name="email" placeholder="Marca" class="input watermark" />
                 </div>
-                <div class="grid_1">
-                    <input type="text" name="empresa" placeholder="NO de Patrimonio" class="input watermark" />
+
+                <div class="grid_1">                    
+                    <input type="number" name="name" placeholder="Nº de Serie" class="input watermark" />
+                
+                
+                    <input type="number" name="empresa" placeholder="Nº de Patrimonio" class="input watermark" />
                 </div>
+
+                <input type="text" class="descricao" name="text" placeholder="Descrição">
+
+                <h2>Estado</h2>
+               <div class="coluna">
+                    <div class="coluna2">
+                        <input type="checkbox" name="estado" id="estado">
+                        <label for="estado">Ativo</label>
+                    </div>
+                    <div class="coluna2">
+                        <input type="checkbox" name="estado" id="estado">
+                        <label for="estado">Inativo</label>
+        
+                    </div>
+               </div>
+
+                    <div class="grid_1"id="botao">
+                        <button type="submit" name="button">Cadastrar</button>
+                    </div>
                
             </form>
-
-            <h2>Estado</h2>
-
-            <button name="button">Cadastrar</button>
-
-
-
         </section>
 
-        <section>
-
+        
+        <section class="sec_1">
             <div class="content">
                 <div class="titulo-cadastrarEquipamento">
-                  <h1>Editar Equipamentos</h1>
+                  <h1>Editar Equipamento</h1>
                   <hr>
                 </div>
     
             </div>
-    
-            <form>
-                <input type="hidden" name="form_input" value="FORM_COTACAO" />
-                <div class="grid_1 " >
-                    <div class="grid_1_1">
-                        <p>Tipo De Equipamento</p>
-                        <select name="state" class="custom" data-width="10" data-value="Tipo de Equipamento">
-                            <option value="">Equipamentos</option>
-                            <option value="">------</option>
-                        </select>
-                    </div>
-                </div>
-                <div class="grid_1" >
-                    <input type="text" name="name" placeholder="N° De Serie" class="input watermark" />
-                </div>
+
+            <form class="form content">
                 <div class="grid_1">
+                    <input type="text" placeholder="Tipo de Equipamento"/>
+                
                     <input type="text" name="email" placeholder="Marca" class="input watermark" />
                 </div>
-                <div class="grid_1">
-                    <input type="text" name="empresa" placeholder="NO de Patrimonio" class="input watermark" />
+
+                <div class="grid_1">                    
+                    <input type="number" name="name" placeholder="Nº de Serie" class="input watermark" />
+                
+                
+                    <input type="number" name="empresa" placeholder="Nº de Patrimonio" class="input watermark" />
                 </div>
+
+                <input type="text" class="descricao" name="text" placeholder="Descrição">
+
+                <h2>Estado</h2>
+               <div class="coluna">
+                    <div class="coluna2">
+                        <input type="checkbox" name="estado" id="estado">
+                        <label for="estado">Ativo</label>
+                    </div>
+                    <div class="coluna2">
+                        <input type="checkbox" name="estado" id="estado">
+                        <label for="estado">Inativo</label>
+        
+                    </div>
+               </div>
+               
+               <div class="grid_1"id="botao">
+                    <button type="submit" name="button">Editar</button>
+               </div>
                
             </form>
-
-            <h2>Estado</h2>
-
-            <button name="button">Atualizar</button>
-
         </section>
         
     </main>
-
    
-    
-    
 </body>
 </html>
