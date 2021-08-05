@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <title>Cadastrar Equipamento</title>
+
+    <!-- Estilos -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <!-- Fontes -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet"> 
+  
+</head>
+<body>
+    <header class="cabecalho-principal">
+        <div class="container">
+            <nav class="cabecalhoPrincipal-nav">
+                <img src="/assets/img/senai-logo.png" alt="Image" height="50" width="220"> 
+              <a>Cadastrar Sala</a>
+              <a class="cabecalhoPrincipal-nav-login" href="cadastrarEquipamentos.html">Cadastrar Equipamentos</a>
+              <a>Sair</a>
+            </nav>
+          </div>
+    </header>
+
+    <main>
+        <section>
+            <div class="content">
+                <div class="titulo-cadastrarEquipamento">
+                  <h1>Cadastrar Equipamentos</h1>
+                  <hr>
+                </div>
+    
+            </div>
+
+            <form>
+                <input type="hidden" name="form_input" value="FORM_COTACAO" />
+                <div class="grid_1 " >
+                    <div class="grid_1_1">
+                        <p>Tipo De Equipamento</p>
+                        <select name="state" class="custom" data-width="10" data-value="Tipo de Equipamento">
+                            <option value="">Equipamentos</option>
+                            <option value="">------</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="grid_1" >
+                    <input type="text" name="name" placeholder="N° De Serie" class="input watermark" />
+                </div>
+                <div class="grid_1">
+                    <input type="text" name="email" placeholder="Marca" class="input watermark" />
+                </div>
+                <div class="grid_1">
+                    <input type="text" name="empresa" placeholder="NO de Patrimonio" class="input watermark" />
+                </div>
+               
+            </form>
+
+            <h2>Estado</h2>
+
+            <button name="button">Cadastrar</button>
+
+
+
+        </section>
+
+        <section>
+
+            <div class="content">
+                <div class="titulo-cadastrarEquipamento">
+                  <h1>Editar Equipamentos</h1>
+                  <hr>
+                </div>
+    
+            </div>
+    
+            <form>
+                <input type="hidden" name="form_input" value="FORM_COTACAO" />
+                <div class="grid_1 " >
+                    <div class="grid_1_1">
+                        <p>Tipo De Equipamento</p>
+                        <select name="state" class="custom" data-width="10" data-value="Tipo de Equipamento">
+                            <option value="">Equipamentos</option>
+                            <option value="">------</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="grid_1" >
+                    <input type="text" name="name" placeholder="N° De Serie" class="input watermark" />
+                </div>
+                <div class="grid_1">
+                    <input type="text" name="email" placeholder="Marca" class="input watermark" />
+                </div>
+                <div class="grid_1">
+                    <input type="text" name="empresa" placeholder="NO de Patrimonio" class="input watermark" />
+                </div>
+               
+            </form>
+
+            <h2>Estado</h2>
+
+            <button name="button">Atualizar</button>
+
+        </section>
+        
+    </main>
+
+   
+    
+    
+</body>
+</html>
