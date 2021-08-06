@@ -36,3 +36,12 @@ nav a{
     color: #fff;
     
 }
+
+/*inicio footer*/
+footer p{
+    text-align: center;
+}
+.bold{
+    font-weight: 600;
+}
+/*fim footer*/
