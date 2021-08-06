@@ -116,3 +116,18 @@ body hr{
     margin-bottom: 5rem;
 }
 
+/*Inicio Listagens*/
+.tabela{
+    width: 100%;
+    background-color:#f5f5f5;
+    padding: 1rem;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-top: -1rem;
+    margin-bottom: 4rem;
+}
+
+.tabela th{
+text-align: left;
+color: #6E0E10;
+}
+/*Fim Listagem*/
