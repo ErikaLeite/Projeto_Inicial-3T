@@ -60,27 +60,39 @@ O projeto Inicial é uma aplicação web onde é possível realizar o gerenciame
 
 ## Páginas
 •	Login;
+
 •	Inicial com as listagens e as opções de edição e exclusão de itens; 
+
 •	Cadastrar;
+
 •	Editar;
 
 
 ## Funcionalidades
 A aplicação tem as funcionalidades a seguir: 
+
 •	Cadastrar novos equipamentos, salas e usuários;
+
 •	Editar os dados de equipamentos, salas e usuários;
+
 •	Excluir dados cadastros;
+
 •	Listar dados de acordo com sua categoria;
+
 •	Gerar relatórios de entrada e saída;
 
 
 ## Tecnologias
 Desenvolvido com a utilização das seguintes tecnologias:
 
-•	React
-•	C#
-•	Entity Framework Core
-•	ASP.NET Core
-•	SQL Server
+•	React;
+
+•	C#;
+
+•	Entity Framework Core;
+
+•	ASP.NET Core;
+
+•	SQL Server;
 
 
