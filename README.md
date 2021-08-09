@@ -52,3 +52,35 @@ https://github.com/senai-desenvolvimento/projeto-individual-3t
   
   Crie um fork do teste para acompanharmos o seu desenvolvimento através dos seus commits.
 
+  ---------------------------------------------------------------------------------------------------------------------------------------------------
+
+## Sobre o projeto
+O projeto Inicial é uma aplicação web onde é possível realizar o gerenciamento de patrimônio de uma escola. Os dados são armazenados em um banco de dados, podem ser acessados e alterados através de uma API que tem sua interface desenvolvida para que o usuário tenha visão das informações.
+
+
+## Páginas
+•	Login;
+•	Inicial com as listagens e as opções de edição e exclusão de itens; 
+•	Cadastrar;
+•	Editar;
+
+
+## Funcionalidades
+A aplicação tem as funcionalidades a seguir: 
+•	Cadastrar novos equipamentos, salas e usuários;
+•	Editar os dados de equipamentos, salas e usuários;
+•	Excluir dados cadastros;
+•	Listar dados de acordo com sua categoria;
+•	Gerar relatórios de entrada e saída;
+
+
+## Tecnologias
+Desenvolvido com a utilização das seguintes tecnologias:
+
+•	React
+•	C#
+•	Entity Framework Core
+•	ASP.NET Core
+•	SQL Server
+
+
